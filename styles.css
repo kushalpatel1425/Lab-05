@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.527);
+    font-size: 80px;
+    font-family: "Bitter", sans-serif;
+}
+h2{
+    font-size: 30px;
+    padding-right: 1000px;
+    text-align: center;
+}
+body{
+    font-family:"Raleway", sans-serif;
+    background-color: rgba(159, 223, 151, 0.788);
+}
+p:nth-child(odd) {
+    background-color:rgb(113, 243, 7);
+}
+p:nth-child(even) {
+    color: rgba(247, 11, 11, 0.747);
+}
+figure > img{
+    width: 300px;
+    margin: 0 1em;
+    float: left;
+    margin-right: 10px;
+}
+.age{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 34, 65);
+    border-radius: 25px; 
+}
